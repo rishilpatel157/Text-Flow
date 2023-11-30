@@ -1,0 +1,101 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+   
+
+h1 {
+    font-family: 'Playpen Sans', serif;
+   
+}
+
+h2 {
+    font-family: 'Playpen Sans', serif;
+   
+}
+
+
+
+
+p {
+    font-family: 'Font Name', sans-serif;
+    font-style: italic;
+}
+
+  a{
+    text-decoration: none;
+  }
+  .navbar {
+  
+    background-color: black;
+    background: rgb(13,110,253);
+  }
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropbtn {
+    background-color: rgb(12, 192, 242);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.dropdown-content a {
+    color:black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+      border-radius: 10px;
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: rgb(13,110,253);
+  }
+  
+  span{
+    font-weight: 400;
+    color: red;
+  }
+
+  .dropdown-menu a:hover{
+
+    background-color: #ddd;
+
+
+  }
+
+  h3{
+    color: black;
+    padding-right: 40px;
+  }
+
+  h3:hover{
+    color: red;
+  }

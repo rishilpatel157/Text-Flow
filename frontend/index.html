@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/2b1cb15fd3.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+
+   
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+  <link rel="stylesheet" href="/styles/index.css">
+    <title>Document</title>
+</head>
+<body >
+    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+        <a href="/index.html" class="navbar-brand align-content-center ms-4 " style="color: black;"><h2>Text Flow</h2></a>
+        <button class="navbar-toggler me-4" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-evenly " id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="/textgeneration.html" id="text-gen-link"  data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="nav-link ms-4 "><h3>Text Generation</h3></a>
+                </li>
+                <li class="nav-item">
+                    <a href="/textsum.html"  data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="nav-link ms-4"><h3 >Text Summarization</h3></a>
+                </li>
+                <li class="nav-item">
+                    <a href="/langtranslation.html"  data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="nav-link ms-4"><h3>Language Translation</h3></a>
+                </li>
+            </ul>
+            <div class="dropdown ml-auto">
+                <button class="dropbtn bg-info ms-4" data-toggle="dropdown"><h2 class="icon"><i class="fa-regular fa-user  bg-info" style="color: #000000;"></i></h2></button>
+                <div class="dropdown-content">
+                    <a href="/signup.html">Signup</a>
+                    <a href="/login.html">Login</a>
+                    <a href="/history.html"  data-bs-toggle="modal" data-bs-target="#staticBackdrop">History</a>
+                    <a href="" id="logout">Logout</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <main class="d-flex flex-column flex-lg-row">
+        <div class="bg-info" style=" width:100%;;">
+            <img  class="mt-5 w-100" src="/hero.png" alt="">
+        </div>
+        <div class="bg-info text-center text-lg-left" style="width: 100%;">
+            <h1 class="m-5 m-md-5 display-5 display-md-5">Unlock creativity with <span> AI-powered text generation. </span> Simplify complex content through
+                <span> summarization.</span>
+                 Bridge language barriers with <span>translation.</span> Explore our all-in-one text platform.</h1>
+               <!-- <button class="btn btn-danger btn-lg"> Get Started</button> -->
+                <!-- <button class="btn btn-secondary dropdown-toggle btn-danger btn-lg" type="button" data-bs-toggle="dropdown" aria-expanded="false"> -->
+               
+                    <div class="dropdown">
+                        <a class="btn btn-secondary dropdown-toggle btn-danger btn-lg" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                         Get Started
+                        </a>
+                      
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="/login.html">Login</a></li>
+                          <li><a class="dropdown-item" href="/signup.html">Sign Up</a></li>
+                        </ul>
+                      </div>
+
+               
+            </div>
+    </main>
+  
+    <!-- Button trigger modal -->
+  
+ <!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel">Restricted</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+        Please Login First to Access
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <a href="/signup.html"><button type="button" class="btn btn-danger"> Signup</button></a>
+          <a href="/login.html"><button type="button" class="btn btn-primary"> login</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script> -->
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+  
+</body>
+<script src="/scripts/index.js"></script>
+</html>
